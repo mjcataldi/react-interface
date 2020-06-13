@@ -82,3 +82,6 @@ https://gist.github.com/planetoftheweb/334f32d16ce3c4b877582e138255aa53
 
 ## Icon Library (React Icons)
 https://react-icons.github.io/react-icons/
+
+## Moment.js
+Search npm for Componentized version of Moment.js at npm site

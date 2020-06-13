@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from '../logo.svg';
 import '../css/App.css';
 import AddAppointments from './AddAppointments';
 import SearchAppointments from './SearchAppointments';
@@ -10,21 +9,12 @@ class App extends Component {
     super(props);
 
     this.state = {
-      myName: 'Matthew',
+      myName: 'Matthew Cataldi',
       data: []
     };
   }
 
-  componentDidMount() {
-    fetch('./data.json')
-      .then(data => data.json())
-      .then(data => this.setState({
-        data
-      }));
-
-  }
-
-  render() {
+  render = () => {
     return (
       <main className="page bg-white" id="petratings">
         <div className="container">
@@ -33,7 +23,7 @@ class App extends Component {
               <div className="container">
                 <SearchAppointments />
                 <AddAppointments />
-                <ListAppointments appointments={this.state.data} />
+                <ListAppointments />
               </div>
             </div>
           </div>
