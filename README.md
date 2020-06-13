@@ -70,3 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Useful Links
 https://gist.github.com/planetoftheweb/c3f562c9301c160cbd51614b8f7f640a
 https://gist.github.com/planetoftheweb/52cfe4aa90867708611a0cf33d2e1d7d
+https://gist.github.com/planetoftheweb/560f8df9e638a0083b5327931c3e202b
