@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from '../logo.svg';
 import '../css/App.css';
-import Appointment from './Appointment';
+import AddAppointments from './AddAppointments';
+import SearchAppointments from './SearchAppointments';
+import ListAppointments from './ListAppointments';
 
 function App() {
   return (
@@ -10,9 +12,9 @@ function App() {
       <div class="row">
         <div class="col-md-12 bg-white">
           <div class="container">
-            <Appointment />
-            <div>Search Appointments</div>
-            <div>List Appointments</div>
+            <SearchAppointments />
+            <AddAppointments />
+            <ListAppointments />
           </div>
         </div>
       </div>
